@@ -5,9 +5,9 @@ const WeatherList = ({weathers}) => {
     return (
       <div className="f">
            {weathers.map(({dt,main, weather}) => (
-                <div key={dt}>
+                <React.Fragment key={dt}>
                     <WeatherCard temp_max={main.temp_max} temp_min={main.temp_min} dt={dt * 1000} main={weather[0].main} icon={weather[0].icon}/>
-                </div>
+                </React.Fragment>
             ))} 
         </div>
     )
