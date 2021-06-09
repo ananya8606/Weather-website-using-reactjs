@@ -1,6 +1,6 @@
 # Live demo of Weather website using Reactjs and React Hooks :-
 
-We used ![open weather map](https://openweathermap.org/api) to get our API key to fetch real weather data.
+We used [open weather map](https://openweathermap.org/api) to get our API key to fetch real weather data.
 
 Click the screenshot given below:-
 
