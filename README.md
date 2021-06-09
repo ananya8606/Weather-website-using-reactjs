@@ -4,6 +4,8 @@ We used [open weather map](https://openweathermap.org/api) to get our API key to
 
 Click the screenshot given below:-
 
+[![ ](https://i.ibb.co/yB0k3Xk/Screenshot-2021-06-09-14-11-25-558-com-android-chrome.png )](https://youtu.be/FBCZLqj4ji4)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
