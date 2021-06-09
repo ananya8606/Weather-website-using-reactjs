@@ -7,7 +7,6 @@ const WeatherCard = ({dt, temp_min, temp_max, main, icon}) => {
   return (
 <div className="displayweather">
    <div className="maincard1">
-    <React.Fragment>
 <img className="weather-icon" src={'http://openweathermap.org/img/wn/${icon}@2x.png'} alt="" srcset="" />
 <span className="cardtitle">
               {main} 
@@ -17,7 +16,6 @@ const WeatherCard = ({dt, temp_min, temp_max, main, icon}) => {
        </h5>
         <h5>Min: {temp_min}</h5>
         <h5>Max: {temp_max}</h5>
-    </React.Fragment>
     </div>
     </div>
   );
