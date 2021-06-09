@@ -1,3 +1,12 @@
+# Live demo of Weather website using Reactjs and React Hooks :-
+
+We used [![](open weather map)](https://openweathermap.org/api) to get our API key to fetch real weather data.
+
+Using state and useState
+fetching an API with useEffect
+use of custom hooks in our application
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
