@@ -7,7 +7,7 @@ function DisplayWeather(props) {
     ".png";
   return (
     <div className="displayweather">
-      {data.cod != 404 ? (
+      {data.cod !== 404 ? (
         <React.Fragment>
           <div className="maincard">
             <span className="cardtitle">
