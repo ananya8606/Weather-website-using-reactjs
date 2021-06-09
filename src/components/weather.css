@@ -11,6 +11,11 @@ object-fit:contain;
 background-color:#191970;
 color:white
 }
+.f{
+ column-count:5;
+column-gap:130px;
+margin-top:5%;
+}
 .weather1 {
   margin:5px;
   border: 3px dashed orange;
