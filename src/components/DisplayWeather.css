@@ -15,6 +15,7 @@
   background-color:#006400;
   border: 1px solid black;
 }
+
 .displayweather .maincard1 {
   margin-top:10px;
   align-self: center;
@@ -24,6 +25,13 @@
   border: 1px solid black;
   color:white;
   background-color:#006400;
+}
+.displayweather .weather-icon1 {
+  width: 100px;
+}
+.f{
+column-count:5;
+column-gap:150px;
 }
 .displayweather .maincard .cardtitle {
   position: absolute;
@@ -46,7 +54,6 @@
 
 .displayweather .weather-icon {
   width: 100px;
-
   position: absolute;
   top: 50px;
 }
