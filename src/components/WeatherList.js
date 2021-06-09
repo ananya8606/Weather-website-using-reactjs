@@ -11,7 +11,7 @@ function Weather() {
   const APIKEY = "5b0750d0425843e9a104d028a6bcc178";
   async function weatherData(e) {
     e.preventDefault();
-    if (form.city == "") {
+    if (form.city === "") {
       alert("Add values");
     } else {
       const data = await fetch(
@@ -28,10 +28,10 @@ function Weather() {
     let name = e.target.name;
     let value = e.target.value;
 
-    if (name == "city") {
+    if (name === "city") {
       setForm({ ...form, city: value });
     }
-    if (name == "country") {
+    if (name === "country") {
       setForm({ ...form, country: value });
     }
   };
@@ -57,7 +57,7 @@ function Weather() {
         </button>
       </form>
       {/* {console.log(weather)} */}
-      {weather.data != undefined ? (
+      {weather.data !== undefined ? (
         <div>
           <DisplayWeather data={weather.data} />
         </div>
