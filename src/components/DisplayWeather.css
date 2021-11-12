@@ -71,11 +71,10 @@ column-gap:150px;
   font-size: 1.4rem;
 }
 .displayweather .weatherdetails {
-  margin:30px;
   display: grid;
-  grid-template-columns:40% 40%;
+  grid-template-columns:50% 50%;
   grid-template-rows: auto;
-  grid-gap:10px;
+  grid-gap:20px;
 }
 .displayweather .weatherdetails .section1 {
   justify-self: right;
