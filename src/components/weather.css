@@ -1,12 +1,12 @@
 .weather {
-  padding:10px;
-  border: 3px dashed orange;
+  padding:20px;
+  border:3px dashed orange;
   border-radius: 20px;
   padding-bottom:30px;
   margin-top:10%;
 object-fit:contain;
 background-color:#191970;
-color:white
+color:white;
 }
 
 .weather1 {
