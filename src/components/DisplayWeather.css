@@ -1,6 +1,5 @@
 .displayweather {
   margin-top:10%;
-  display: flex;
   flex-flow: column nowrap;
 }
 
