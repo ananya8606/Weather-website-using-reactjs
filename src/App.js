@@ -9,9 +9,7 @@ const App = () =>{
  const {data, error, isLoading, setUrl} = UseFetch();
 
   const getContent = () => {
-    if(error) return <h2>Error when fetching: {error}</h2>
-    if(!data && isLoading) return <h2>LOADING...</h2>
-    if(!data) return null;
+    
     return <WeatherList weathers={data.list} />
   };
   return (
