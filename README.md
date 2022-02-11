@@ -2,9 +2,9 @@
 
 We used [open weather map](https://openweathermap.org/api) to get our API key to fetch real weather data.
 
-Click the screenshot given below:-
+<h1>DEMO:-</h1>
 
-[![ ](https://i.ibb.co/yB0k3Xk/Screenshot-2021-06-09-14-11-25-558-com-android-chrome.png )](https://youtu.be/FBCZLqj4ji4)
+![ ](https://s10.gifyu.com/images/weatherapp.gif )
 
 # Getting Started with Create React App
 
