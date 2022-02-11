@@ -57,11 +57,8 @@ function Weather() {
         </button>
       </form>
       {/* {console.log(weather)} */}
-      {weather.data !== undefined ? (
-        <div>
+      <div>
           <DisplayWeather data={weather.data} />
-        </div>
-      ) : null}
     </div>
   );
 }
