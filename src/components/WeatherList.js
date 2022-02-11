@@ -62,6 +62,7 @@ function Weather() {
           <DisplayWeather data={weather.data} />
         </div>
       ) : null}
+</div>
   );
 }
 
